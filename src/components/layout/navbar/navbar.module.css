@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    height: 150px;
+    border-bottom: 1px solid black;
+    margin-left: 10%;
+}
+
+.parteUm {
+    display: flex;
+}
+
+.parteDois {
+    display: flex;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.lista li {
+    list-style: none;
+}
+
+.foto {
+    width: 48px;
+    height: 48px;
+    margin-left: 3em;
+}
