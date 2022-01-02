@@ -7,6 +7,7 @@
     height: 150px;
     border-bottom: 1px solid black;
     margin-left: 10%;
+    position: relative;
 }
 
 .parteUm {
@@ -32,4 +33,66 @@
     width: 48px;
     height: 48px;
     margin-left: 3em;
+}
+
+.containerModal {
+    margin-top: 60em;
+    position: absolute;
+    height: 1000px;
+    width: 1810px;
+    margin-bottom: 15em;
+
+}
+
+.modal {
+    position: absolute;
+    background-color: white;
+    margin-top: 12em;
+    height: 270px;
+    width: 450px;
+    margin-left: 19.5em;
+    -webkit-box-shadow: -1px 8px 7px 2px rgba(0,0,0,0.40); 
+    box-shadow: -1px 8px 7px 2px rgba(0,0,0,0.40);
+}
+
+.modalTitle{
+    height: 30%;
+    background-color: white;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1.5em;
+}
+
+.modalBody{
+    height: 70%;
+}
+
+.fotoProduto {
+    width: 50px;
+    height: 50px;
+}
+
+.resultadoFinal {
+    font-weight: bold;
+}
+
+.finalizarCarrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.checkout {
+    margin-top: 3em;
+    height: 60px;
+    width: 250px;
+    color: white;
+    background-color:  hsl(26, 100%, 55%);
+    border: 1px solid hsl(26, 100%, 55%);
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bold;
 }

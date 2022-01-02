@@ -113,12 +113,11 @@
 }
 
 .quadrado {
-    background-color: hsl(223, 64%, 98%);
+    background-color: hsl(227, 21%, 92%);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 30px;
-    border: 1px solid rgb(209, 208, 208);
     height: 35px;
 }
 
@@ -136,8 +135,11 @@
     border-radius: 15px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .carrinho {
     color: white;
 }
+
+
