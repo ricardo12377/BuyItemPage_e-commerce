@@ -1,3 +1,3 @@
 Página para compra de item em comércio digital.
 
-Npm start;
+Desafio do front-end mentor para praticar CSS.
